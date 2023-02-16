@@ -4,7 +4,7 @@
     padding: 0px;
     font-family: roboto;
     list-style: none;
-    /* overflow: inherit; */
+    /* overflow-x: hidden; */
 }
 
 .top {
@@ -195,65 +195,81 @@
     flex-shrink: 1;
     margin: 30px 20PX;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
     margin: 30px;
 }
-.whiteShoe{
+
+.whiteShoe {
     width: 400px;
     height: 400px;
 }
-.descRate{
+
+.descRate {
     display: flex;
     flex-direction: row;
     margin: 30px;
 }
-.desc{
+
+.desc {
     font-weight: bold;
 }
-.descRate span{
-    margin-left:120px ;
-}
-.rate{
+
+.descRate span {
     margin-left: 120px;
 }
-.main{
+
+.rate {
+    margin-left: 120px;
+}
+
+.main {
     display: flex;
     margin-left: 69px;
 }
-.main a{
+
+.main a {
     color: black;
 }
-.roundImages{
+
+.roundImages {
     display: flex;
 }
-.roundImg{
+
+.roundImg {
     display: flex;
     justify-content: center;
 }
-.roundImg{
+
+.roundImg {
     display: flex;
 }
-footer{
-    background-color:black ;
+
+footer {
+    background-color: black;
     height: 450px;
     color: white;
 }
-.footerCon{
+
+.footerCon {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
 }
-.Supp{
+
+.Supp {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
 }
-.Supp h4{
+
+.Supp h4 {
     padding-bottom: 20px;
 }
-select{
+
+select {
     width: 463px;
     height: 57.6px;
     background-color: black;
@@ -262,20 +278,107 @@ select{
     border-style: solid;
     border-width: 1px;
 }
-li{
+
+li {
     line-height: 40px;
 }
-hr{
+
+hr {
     margin-bottom: 30px;
 }
-.hrr{
+
+.hrr {
     color: #6c6c6c;
     margin-top: 60px;
 }
-.pumadiv{
+
+.pumadiv {
     display: flex;
     justify-content: center;
 }
-.copyright{
+
+.copyright {
     display: flex;
+}
+.gymWear{
+    margin-left: 210px;
+}
+.pumaRx{
+    margin-left: 270px;
+}
+@media screen and (max-width: 844px) {
+    .navDiv {
+        width: 390px;
+        /* display: flex; */
+        justify-content: space-evenly;
+    }
+    .links{
+        display: none;
+    }
+
+    .links {}
+
+    .top {
+        width: 390px;
+        text-align: center;
+    }
+
+    .secndBanner {
+        width: 390px;
+        background-size: contain;
+        /* background-size:; */
+        /* width: 390px; */
+    }
+    .content h1{
+        margin-top: -90px;
+        margin-left: -611px;
+        font-size: 30px;
+        /* color: #edf6f9; */
+    }
+    .butt{
+        margin-left: 25px;
+        /* margin-top: -50px; */
+
+    }
+    .topTrend{
+        margin-top: -267px;
+    }
+    .main{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .container{
+        margin-left: 0px;
+    }
+    .rate{
+        margin-left: 70px;
+    }
+    .desc{
+        margin-left: 5px;
+    }
+    .search{
+        display: none;
+    }
+    .puma{
+        margin-left: -px;
+    }
+    footer{
+        height: 750px;
+    }
+    .footerCon{
+        flex-direction: column;
+    }
+    select{
+        width: 300px;
+    }
+    select option{
+        width: 300px;
+        overflow: hidden;
+    }
+    .gymWear{
+        margin-left: 190px;
+    }
+    .pumaRx{
+        margin-left: 250px;
+    }
 }
